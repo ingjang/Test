@@ -26,8 +26,10 @@
 		*/
 		// 透過網址取得伺服器端提供的 JSON 格式資料
 		fetch("https://ingjang.github.io/Test/data/CodeLanguage.json").then(function(response){
+			console.log("response:", response);
 			return response.json();
 		}).then(function(data){
+			console.log("data:", data);
 			// 先清空畫面
 			list.innerHTML="";
 			// 根據取得的資料，將產品的訊息顯示出來
