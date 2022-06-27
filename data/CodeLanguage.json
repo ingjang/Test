@@ -1,14 +1,14 @@
 [
   {
-    name:"JavaScript",
-    datatype:"dynamic"
+    "name":"JavaScript",
+    "datatype":"dynamic"
   },
   {
-    name:"C#",
-    datatype:"static"
+    "name":"C#",
+    "datatype":"static"
   },
   {
-    name:"JAVA",
-    datatype:"static"
+    "name":"JAVA",
+    "datatype":"static"
   },
 ]
