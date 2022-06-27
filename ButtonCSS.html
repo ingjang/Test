@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button CSS</title>
+    <style>
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #99aacc;
+            border: 1px solid #334466;
+            font-size: 16px;
+            padding: 10px;
+            cursor: pointer;
+            transition: background-color 0.5s;
+        }
+
+        .btn:hover {
+            background-color: #7788aa;
+        }
+
+        .btn:active {
+            transform: translate(0px, 2px);
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+        目標：想要變成按鈕的標，設定 clsss="btn"
+    -->
+    <button class="btn">點擊購買</button>
+    <hr />
+    <a href="https://www.google.com" class="btn">點擊開始</a>
+    <hr />
+    <a href="https://www.google.com" class="btn" class="btn btn-small">註冊</a>
+    <hr />
+    <span class="btn btn-small">登入</span>
+</body>
+
+</html>
