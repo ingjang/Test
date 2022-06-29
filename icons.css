@@ -1,0 +1,53 @@
+.icons ul {
+    display: flex;
+    font-size: 60px;
+}
+
+.icons ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+.icons ul li a {
+    color: gray;
+}
+
+.icons ul li a .fa-facebook:hover {
+    color: blue;
+}
+
+.icons ul li a .fa-line:hover {
+    color: rgb(0, 196, 59);
+}
+
+.icons ul li a .fa-youtube:hover {
+    color: rgb(255, 0, 0);
+}
+
+
+/* Bootstrap */
+
+.bs-icons ul {
+    display: flex;
+}
+
+.bs-icons ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+.bs-icons ul li a {
+    color: gray;
+}
+
+.bs-icons ul li a .bi-facebook:hover {
+    color: blue;
+}
+
+.bs-icons ul li a .bi-instagram:hover {
+    color: rgb(204, 3, 235);
+}
+
+.bs-icons ul li a .bi-youtube:hover {
+    color: rgb(255, 0, 0);
+}
