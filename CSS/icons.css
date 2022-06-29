@@ -51,3 +51,7 @@ color: rgb(204, 3, 235);
 .bs-icons ul li a .bi-youtube:hover {
 color: rgb(255, 0, 0);
 }
+
+img {
+    cursor: pointer;
+}
